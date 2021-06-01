@@ -3,7 +3,7 @@ const HobbitSettlement = class {
 		this.name = name;
 		this.founding = founding;
 		this.founders = founders;
-		this.originalSettlement = { name: 'Eriador', details: eriadorDetails };
+		this.originalSettlement = { name: 'Eriador', details: 'eriadorDetails' };
 	}
 };
 const theShire = new HobbitSettlement('The Shire', 1601, ['Marcho', 'Blanco']);
